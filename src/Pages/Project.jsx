@@ -3,7 +3,7 @@ import "../App.css"
 import Navbar from '../Component/Navbar/Navbar'
 import pro1 from '../Assest/pro1.png'
 import pro2 from '../Assest/pro2.png'
-
+import pro3 from '../Assest/pro3.png'
 
 const Project = () => {
   return (
@@ -52,6 +52,19 @@ const Project = () => {
                     </a>
 
                     <p>React.js, Html , CSS , Javascript </p>
+                </div>
+                <div class="card">
+                    <a href="https://task-cobay.vercel.app/" target="_blank" rel="noreferrer" title="Cobay profile">
+                        <div class="box">
+                            <img src={pro3} alt="Cobay profile"/>
+
+                        </div>
+                    </a>
+                    <a href="https://task-cobay.vercel.app/" target="_blank" rel="noreferrer" title="Cobay profile">
+                        <p>Cobay Profile </p>
+                    </a>
+
+                    <p>Html , CSS , Javascript </p>
                 </div>
             </div>
         </div>
